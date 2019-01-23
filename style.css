@@ -44,7 +44,7 @@ body {
 }
   
 .active-link {
-    color: #4caf50;
+    color: #7c4dff;
     font-weight: bold;
 }
   
@@ -84,7 +84,7 @@ body {
 }
   
 .tabs .indicator {
-    background-color: #4caf50 !important;
+    background-color: #7c4dff !important;
 }
 
 .signature {
