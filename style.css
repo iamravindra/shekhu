@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+/* @import url('https://fonts.googleapis.com/css?family=Fauna+One'); */
+
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Dosis', sans-serif;
+    
+    font-family: 'Poppins', sans-serif;
 }
 .primary-overlay {
-    background: #bdbdbd;
+    /* background: #bdbdbd; */
     position: absolute;
     top: 0;
     left: 0;
@@ -11,20 +15,29 @@ body {
     height: 100%;
     overflow: hidden;
 }
-.nav-wrapper .brand-logo img {
+
+nav {
+    box-shadow: none !important;
+}
+.nav-wrapper .brand-logo {
     height: 1.9em;
+    font-weight: 600;
+    font-size: 35px;
+
 }
 
 .circle {
     height: 18em !important;
 }
-  
+
+
 .main-header {
-    background: url(/images/slideshow.png);
+    background: url(/images/slideshow.png) no-repeat;
     background-size: cover;
     background-position: center;
     min-height: 600px;
     color: #fff;
+    
 }
   
 .main-header .showcase {
@@ -71,12 +84,24 @@ body {
     
     min-height: 160px;
 }
+
+#idea {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+
   
 .section-podcast a {
-    margin-top: 30px;
+    /* margin-top: 30px; */
+    margin: 0 auto;
 }
   
-.section-podcast .primary-overlay {
+.section-advice .primary-overlay {
     background: #bdbdbd; 
    
 }
